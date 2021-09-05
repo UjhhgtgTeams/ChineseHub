@@ -91,6 +91,7 @@
     "username": "用户名",
     "email": "电子邮箱",
     "password": "密码",
+    "docs": "文档",
     "sign up for github": "注册 GitHub 账户",
     "sign in to github": "登录 GitHub 账户",
     "username or email address": "用户名或邮箱",
