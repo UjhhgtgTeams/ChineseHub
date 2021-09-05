@@ -87,6 +87,7 @@
     "forgot password?": "忘记密码?",
     "new to github?": "初次接触 GitHub?",
     "create an account": "新建账号",
+    "your repository details have been saved.": "已保存仓库信息。",
     "make sure it's ": "确保",
     "at least 15 characters": "至少需要15个字符",
     "or": " 或者 ",
@@ -172,7 +173,8 @@
     "explore more →": "探索更多",
     "show more": "展示更多",
     "working with a team?": "与团队合作?",
-    "github is built for collaboration. set up an organization to improve the way your team works together, and get access to more features.": "GitHub是为协作而创建的。 建立组织以改善团队合作的方式, 并获得更多功能。",
+    "github is built for collaboration. set up an organization to improve the way your team works together, and get access to more features.":
+      "GitHub 是为协作而创建的。建立组织以改善团队合作的方式, 并获得更多功能。",
 
     "__comments-7": "Search",
     "language:": " 编程语言:",
@@ -288,6 +290,7 @@
     "readme": "自述文件",
     "commits": "提交",
     "commit to": "提交到",
+    "fetch and merge": "获取并合并",
     "merge pull request": "合并拉取请求",
     "switch branches/tags": "切换分支/标签",
     "default": "默认",

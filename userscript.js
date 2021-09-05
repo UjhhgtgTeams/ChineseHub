@@ -10,7 +10,6 @@
 // @match               https://github.com/*
 // @match               https://gist.github.com/*
 // @match               https://hub.fastgit.com/*
-// @grant               GM_xmlhttpRequest
 // @grant               GM_getResourceText
 // @resource            zh-CN https://www.githubs.cn/raw-githubusercontent/k1995/github-i18n-plugin/master/locales/zh-CN.json?v=20210407
 // @resource            ja https://www.githubs.cn/raw-githubusercontent/k1995/github-i18n-plugin/master/locales/ja.json
@@ -176,23 +175,6 @@
       if(!desc) {
         return;
       }
-
-      GM_xmlhttpRequest({
-        method: "GET",
-        url: `https://www.githubs.cn/translate?q=`+ encodeURIComponent(desc),
-        onload: function(res) {
-          if (res.status === 200) {
-            $("#translate-me").hide();
-            // render result
-            const text = res.responseText;
-            $(el).append("<span style='font-size: small'>由 <a target='_blank' style='color:rgb(27, 149, 224);' href='https://www.githubs.cn'>GitHub中文社区</a> 翻译</span>");
-            $(el).append("<br/>");
-            $(el).append(text);
-          } else {
-            alert("翻译失败");
-          }
-        }
-      });
     });
   }
 
