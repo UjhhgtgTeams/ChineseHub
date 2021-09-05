@@ -7,6 +7,7 @@
 // @match               https://github.com/*
 // @match               https://gist.github.com/*
 // @match               https://hub.fastgit.com/*
+// @match               https://github.com.cnpmjs.org/*
 // @grant               GM_getResourceText
 // @resource            zh-CN https://raw.githubusercontent.com/UjhhgtgTeams/ChineseHub/master/locales/zh-CN.json
 // @require             https://cdn.bootcss.com/timeago.js/4.0.2/timeago.full.min.js
