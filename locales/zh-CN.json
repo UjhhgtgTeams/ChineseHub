@@ -13,6 +13,15 @@
       "key": "!html",
       "selector": "a[aria-label='Pull requests you created']",
       "replacement": "拉取请求"
+    },
+    {
+      "_comments": [
+        "if key === '!html' replace target by: $(selector).html(replacement)",
+        "else: $(selector).attr(key, replacement)"
+      ],
+      "key": "!html",
+      "selector": "a[aria-label='Updated']",
+      "replacement": "最后更新"
     }
   ],
 
@@ -229,7 +238,6 @@
     "secrets": "密钥",
     "security": "安全",
     "notifications": "通知",
-    "signed in as": "登陆用户:",
     "your organizations": "我的组织",
     "your codespaces": "我的 Codespaces",
     "deploy keys": "部署密钥",
@@ -775,6 +783,11 @@
     "with this many forks": "有多少复刻",
     "of this size": "仓库大小",
     "pushed to": "推送到了",
+    "commented on issue": "评论了问题",
+    "opened an issue in": "启动了问题, 在",
+    "closed an issue in": "关闭了问题, 在",
+    "created a branch in": "新建了分支, 在",
+    "created a repository": "新建了仓库",
     "with this license": "用这种许可证",
     "any license": "任意许可证",
     "return repositories": "",
