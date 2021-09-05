@@ -1,18 +1,14 @@
 // ==UserScript==
-// @name                GitHub i18n
-// @name:zh-CN          GitHub汉化插件
+// @name                ChineseHub
 // @namespace           https://github.com/UjhhgtgTeams/ChineseHub/
 // @version             0.16
-// @description         Translate GitHub
-// @description:zh      GitHub汉化插件，包含人机翻译
-// @description:zh-CN   GitHub汉化插件，包含人机翻译
+// @description         GitHub Translator
 // @author              Ujhhgtg
 // @match               https://github.com/*
 // @match               https://gist.github.com/*
 // @match               https://hub.fastgit.com/*
 // @grant               GM_getResourceText
-// @resource            zh-CN https://www.githubs.cn/raw-githubusercontent/k1995/github-i18n-plugin/master/locales/zh-CN.json?v=20210407
-// @resource            ja https://www.githubs.cn/raw-githubusercontent/k1995/github-i18n-plugin/master/locales/ja.json
+// @resource            zh-CN https://www.githubs.cn/raw-githubusercontent/UjhhgtgTeams/ChineseHub/master/locales/zh-CN.json
 // @require             https://cdn.bootcss.com/timeago.js/4.0.2/timeago.full.min.js
 // @require             https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js
 // ==/UserScript==
