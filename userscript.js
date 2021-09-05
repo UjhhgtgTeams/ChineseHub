@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name                GitHub Internationalization
+// @name                GitHub i18n
 // @name:zh-CN          GitHub汉化插件
 // @name:ja             GitHub日本語
-// @namespace           https://github.com/k1995/github-i18n-plugin/
+// @namespace           https://github.com/UjhhgtgTeams/github-i18n-plugin/
 // @version             0.16
-// @description         Translate GitHub.com
+// @description         Translate GitHub
 // @description:zh      GitHub汉化插件，包含人机翻译
 // @description:zh-CN   GitHub汉化插件，包含人机翻译
 // @description:ja      GitHub日本語プラグイン
-// @author              k1995
+// @author              Ujhhgtg
 // @match               https://github.com/*
 // @match               https://gist.github.com/*
 // @grant               GM_xmlhttpRequest
