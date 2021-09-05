@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                ChineseHub
 // @namespace           https://github.com/UjhhgtgTeams/ChineseHub/
-// @version             0.16
+// @version             1.0.0
 // @description         GitHub Translator
 // @author              Ujhhgtg
 // @match               https://github.com/*
