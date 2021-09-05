@@ -1,16 +1,15 @@
 // ==UserScript==
 // @name                GitHub i18n
 // @name:zh-CN          GitHub汉化插件
-// @name:ja             GitHub日本語
-// @namespace           https://github.com/UjhhgtgTeams/github-i18n-plugin/
+// @namespace           https://github.com/UjhhgtgTeams/ChineseHub/
 // @version             0.16
 // @description         Translate GitHub
 // @description:zh      GitHub汉化插件，包含人机翻译
 // @description:zh-CN   GitHub汉化插件，包含人机翻译
-// @description:ja      GitHub日本語プラグイン
 // @author              Ujhhgtg
 // @match               https://github.com/*
 // @match               https://gist.github.com/*
+// @match               https://hub.fastgit.com/*
 // @grant               GM_xmlhttpRequest
 // @grant               GM_getResourceText
 // @resource            zh-CN https://www.githubs.cn/raw-githubusercontent/k1995/github-i18n-plugin/master/locales/zh-CN.json?v=20210407
@@ -73,7 +72,7 @@
     }
   }
 
-  function shoudTranslateEl(el) {
+  function shallTranslateEl(el) {
     const blockIds = ["readme", "wiki-content"];
     const blockClass = [
       "CodeMirror",
@@ -118,7 +117,7 @@
   }
 
   function traverseElement(el) {
-    if(!shoudTranslateEl(el)) {
+    if(!shallTranslateEl(el)) {
       return
     }
 
@@ -186,7 +185,7 @@
             $("#translate-me").hide();
             // render result
             const text = res.responseText;
-            $(el).append("<span style='font-size: small'>由 <a target='_blank' style='color:rgb(27, 149, 224);' href='https://www.githubs.cn'>GitHub中文社区</a> 翻译👇</span>");
+            $(el).append("<span style='font-size: small'>由 <a target='_blank' style='color:rgb(27, 149, 224);' href='https://www.githubs.cn'>GitHub中文社区</a> 翻译</span>");
             $(el).append("<br/>");
             $(el).append(text);
           } else {
