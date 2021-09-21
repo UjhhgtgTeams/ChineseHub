@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name                ChineseHub
 // @namespace           https://github.com/UjhhgtgTeams/ChineseHub/
-// @version             1.0.0
+// @version             1.1.0
 // @description         GitHub Translator
 // @author              Ujhhgtg
 // @match               https://github.com/*
 // @match               https://gist.github.com/*
-// @match               https://hub.fastgit.com/*
+// @match               https://hub.fastgit.org/*
 // @match               https://github.com.cnpmjs.org/*
 // @grant               GM_getResourceText
 // @resource            zh-CN https://raw.githubusercontent.com/UjhhgtgTeams/ChineseHub/master/locales/zh-CN.json
@@ -17,7 +17,7 @@
 (function() {
   'use strict';
 
-  const SUPPORT_LANG = ["zh-CN", "ja"];
+  const SUPPORT_LANG = ["zh-CN"];
   const lang = (navigator.language || navigator.userLanguage);
   const locales = getLocales(lang)
 
